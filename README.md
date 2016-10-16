@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # react-apollo-instagram-example
 ![](http://i.imgur.com/CH44AZF.png)
 
@@ -44,3 +45,17 @@ npm start
 Join our [Slack community](http://slack.graph.cool/) if you run into issues or have questions. We love talking to you!
 
 ![](http://i.imgur.com/5RHR6Ku.png)
+=======
+# datamodel-visualizer
+Visualizes the datamodel of a graphcool project
+
+# Install
+```sh
+yarn
+```
+
+# Start
+```sh
+npm start
+```
+>>>>>>> f77b111e51a374d46a492abbe5bea86cbfb4aa42

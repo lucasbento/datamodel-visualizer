@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
@@ -15,3 +16,14 @@ npm-debug.log
 #IDE
 .idea/*
 *.swp
+=======
+node_modules
+bower_components
+.DS_Store
+*.log
+coverage
+dist
+backup*
+*.sketch
+.nyc_output
+>>>>>>> f77b111e51a374d46a492abbe5bea86cbfb4aa42
