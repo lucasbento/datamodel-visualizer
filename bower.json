@@ -1,0 +1,11 @@
+{
+  "name": "data-model-visualizer",
+  "version": "0.0.0",
+  "authors": [
+    "Kai Rollmann <kai.rollmann@googlemail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bourbon": "^4.2.7"
+  }
+}

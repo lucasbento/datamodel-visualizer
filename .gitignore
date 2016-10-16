@@ -1,0 +1,9 @@
+node_modules
+bower_components
+.DS_Store
+*.log
+coverage
+dist
+backup*
+*.sketch
+.nyc_output
