@@ -40,8 +40,7 @@ const transformResponseToGraphData = (response) => {
       .filter(field => field.node.relation !== null)
       .forEach(field => {
         const { relation, isList } = field.node
-
-        const toMany = !!isList
+        const toMany = isList;
 
         g.setEdge(
           relationNameToKey(relation.leftModel.name),
@@ -63,7 +62,7 @@ const getNodesFromGraphData = (g) => {
 const getEdgesFromGraphData = (g) => {
   // return g.edges().map(edge => g.edge(edge))
   return g.edges().map(edge => Object.assign({}, g.edge(edge), {
-    label: edge.name
+    label: g.edge(edge).label
   }))
 }
 
@@ -151,7 +150,7 @@ class ModulePage extends React.Component<Props,{}> {
     return (
       <div>
         <h1>{project.name}</h1>
-        <svg id="svg" shape-rendering="optimizeQuality" ></svg>
+        <svg id="svg" shapeRendering="optimizeQuality" ></svg>
       </div>
     )
   }
