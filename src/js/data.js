@@ -100,7 +100,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "questions",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           },
                           "leftModel": {
                             "name": "Search"
@@ -108,7 +109,8 @@ export default {
                           "id": "cit5nexz203yy01657jzgujdi",
                           "fieldOnRightModel": {
                             "name": "search",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           }
                         },
                         "isList": true,
@@ -125,7 +127,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "session",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           },
                           "leftModel": {
                             "name": "Search"
@@ -133,7 +136,8 @@ export default {
                           "id": "cit6hciro0k4x0126qe0956st",
                           "fieldOnRightModel": {
                             "name": "search",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           }
                         },
                         "isList": false,
@@ -150,7 +154,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "options",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           },
                           "leftModel": {
                             "name": "Search"
@@ -158,7 +163,8 @@ export default {
                           "id": "cit6zplbu192m0126tab3f3uc",
                           "fieldOnRightModel": {
                             "name": "search",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           }
                         },
                         "isList": true,
@@ -175,7 +181,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "search",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           },
                           "leftModel": {
                             "name": "Survey"
@@ -183,7 +190,8 @@ export default {
                           "id": "cit6zqtk0194y0126cegu5y6b",
                           "fieldOnRightModel": {
                             "name": "surveys",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           }
                         },
                         "isList": true,
@@ -227,7 +235,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "answers",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           },
                           "leftModel": {
                             "name": "Question"
@@ -235,7 +244,8 @@ export default {
                           "id": "cit5ned8h03xx01652ammm0vf",
                           "fieldOnRightModel": {
                             "name": "question",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           }
                         },
                         "isList": true,
@@ -252,7 +262,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "questions",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           },
                           "leftModel": {
                             "name": "Search"
@@ -260,7 +271,8 @@ export default {
                           "id": "cit5nexz203yy01657jzgujdi",
                           "fieldOnRightModel": {
                             "name": "search",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           }
                         },
                         "isList": false,
@@ -295,7 +307,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "question",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           },
                           "leftModel": {
                             "name": "SessionQuestionAnswer"
@@ -303,7 +316,8 @@ export default {
                           "id": "cit70htjz1aff0126fmqahd7x",
                           "fieldOnRightModel": {
                             "name": "sessionquestionanswers",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           }
                         },
                         "isList": true,
@@ -320,7 +334,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "question",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           },
                           "leftModel": {
                             "name": "SurveyQuestionAnswer"
@@ -328,7 +343,8 @@ export default {
                           "id": "cit71r1vf1bx601266b8iz989",
                           "fieldOnRightModel": {
                             "name": "surveyquestionanswers",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           }
                         },
                         "isList": true,
@@ -363,7 +379,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "answers",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           },
                           "leftModel": {
                             "name": "Question"
@@ -371,7 +388,8 @@ export default {
                           "id": "cit5ned8h03xx01652ammm0vf",
                           "fieldOnRightModel": {
                             "name": "question",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           }
                         },
                         "isList": false,
@@ -406,7 +424,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "answer",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           },
                           "leftModel": {
                             "name": "SessionQuestionAnswer"
@@ -414,7 +433,8 @@ export default {
                           "id": "cit70ii3d1ags0126yuehmzfo",
                           "fieldOnRightModel": {
                             "name": "sessionquestionanswers",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           }
                         },
                         "isList": true,
@@ -431,7 +451,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "answer",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           },
                           "leftModel": {
                             "name": "SurveyQuestionAnswer"
@@ -439,7 +460,8 @@ export default {
                           "id": "cit71s2xt1byy0126vezl4t9m",
                           "fieldOnRightModel": {
                             "name": "surveyquestionanswers",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           }
                         },
                         "isList": true,
@@ -474,7 +496,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "sessionquestionanswers",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           },
                           "leftModel": {
                             "name": "Session"
@@ -482,7 +505,8 @@ export default {
                           "id": "cit6frfwu0ixz0126zgmdi6h5",
                           "fieldOnRightModel": {
                             "name": "session",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           }
                         },
                         "isList": true,
@@ -499,7 +523,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "session",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           },
                           "leftModel": {
                             "name": "Search"
@@ -507,7 +532,8 @@ export default {
                           "id": "cit6hciro0k4x0126qe0956st",
                           "fieldOnRightModel": {
                             "name": "search",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           }
                         },
                         "isList": false,
@@ -542,7 +568,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "sessionquestionanswers",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           },
                           "leftModel": {
                             "name": "Session"
@@ -550,7 +577,8 @@ export default {
                           "id": "cit6frfwu0ixz0126zgmdi6h5",
                           "fieldOnRightModel": {
                             "name": "session",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           }
                         },
                         "isList": false,
@@ -567,7 +595,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "question",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           },
                           "leftModel": {
                             "name": "SessionQuestionAnswer"
@@ -575,7 +604,8 @@ export default {
                           "id": "cit70htjz1aff0126fmqahd7x",
                           "fieldOnRightModel": {
                             "name": "sessionquestionanswers",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           }
                         },
                         "isList": false,
@@ -592,7 +622,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "answer",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           },
                           "leftModel": {
                             "name": "SessionQuestionAnswer"
@@ -600,7 +631,8 @@ export default {
                           "id": "cit70ii3d1ags0126yuehmzfo",
                           "fieldOnRightModel": {
                             "name": "sessionquestionanswers",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           }
                         },
                         "isList": false,
@@ -635,7 +667,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "surveyquestionanswers",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           },
                           "leftModel": {
                             "name": "Survey"
@@ -643,7 +676,8 @@ export default {
                           "id": "cit6ftyqe0j150126y34llxhn",
                           "fieldOnRightModel": {
                             "name": "survey",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           }
                         },
                         "isList": true,
@@ -660,7 +694,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "search",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           },
                           "leftModel": {
                             "name": "Survey"
@@ -668,7 +703,8 @@ export default {
                           "id": "cit6zqtk0194y0126cegu5y6b",
                           "fieldOnRightModel": {
                             "name": "surveys",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           }
                         },
                         "isList": false,
@@ -685,7 +721,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "surveys",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           },
                           "leftModel": {
                             "name": "Option"
@@ -693,7 +730,8 @@ export default {
                           "id": "cit700lau19lv0126r1hrt88l",
                           "fieldOnRightModel": {
                             "name": "option",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           }
                         },
                         "isList": false,
@@ -737,7 +775,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "options",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           },
                           "leftModel": {
                             "name": "Search"
@@ -745,7 +784,8 @@ export default {
                           "id": "cit6zplbu192m0126tab3f3uc",
                           "fieldOnRightModel": {
                             "name": "search",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           }
                         },
                         "isList": false,
@@ -762,7 +802,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "surveys",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           },
                           "leftModel": {
                             "name": "Option"
@@ -770,7 +811,8 @@ export default {
                           "id": "cit700lau19lv0126r1hrt88l",
                           "fieldOnRightModel": {
                             "name": "option",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           }
                         },
                         "isList": true,
@@ -805,7 +847,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "surveyquestionanswers",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           },
                           "leftModel": {
                             "name": "Survey"
@@ -813,7 +856,8 @@ export default {
                           "id": "cit6ftyqe0j150126y34llxhn",
                           "fieldOnRightModel": {
                             "name": "survey",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           }
                         },
                         "isList": false,
@@ -830,7 +874,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "question",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           },
                           "leftModel": {
                             "name": "SurveyQuestionAnswer"
@@ -838,7 +883,8 @@ export default {
                           "id": "cit71r1vf1bx601266b8iz989",
                           "fieldOnRightModel": {
                             "name": "surveyquestionanswers",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           }
                         },
                         "isList": false,
@@ -855,7 +901,8 @@ export default {
                           },
                           "fieldOnLeftModel": {
                             "name": "answer",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": false
                           },
                           "leftModel": {
                             "name": "SurveyQuestionAnswer"
@@ -863,7 +910,8 @@ export default {
                           "id": "cit71s2xt1byy0126vezl4t9m",
                           "fieldOnRightModel": {
                             "name": "surveyquestionanswers",
-                            "typeIdentifier": "Relation"
+                            "typeIdentifier": "Relation",
+                            "isList": true
                           }
                         },
                         "isList": false,
