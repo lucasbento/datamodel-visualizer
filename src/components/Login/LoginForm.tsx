@@ -12,8 +12,8 @@ interface State {
 class LoginForm extends React.Component<Props,State> {
 
   state = {
-    email: 'sorenbs@gmail.com',
-    password: 'password',
+    email: '',
+    password: '',
   }
 
   render () {
