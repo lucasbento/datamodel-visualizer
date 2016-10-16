@@ -12,18 +12,23 @@ module.exports = {
         publicPath: '/',
     },
     module: {
-        rules: [{
-            enforce: 'pre',
-            test: /\.ts(x?)$/,
-            loader: 'tslint',
-            exclude: /node_modules/,
-        }, {
+        rules: [
+        //     {
+        //     enforce: 'pre',
+        //     test: /\.ts(x?)$/,
+        //     loader: 'tslint',
+        //     exclude: /node_modules/,
+        // },
+            {
             test: /\.ts(x?)$/,
             exclude: /node_modules/,
             loader: 'awesome-typescript',
         }, {
             test: /\.css/,
             loader: 'style!css',
+        }, {
+            test: /\.styl$/,
+            loader: 'style!css!stylus'
         }],
     },
     plugins: [
