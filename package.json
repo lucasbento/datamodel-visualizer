@@ -4,6 +4,7 @@
   "private": true,
   "devDependencies": {
     "html-webpack-plugin": "^2.22.0",
+    "netlify-cli": "^1.0.3",
     "tslint-loader": "^2.1.5",
     "webpack": "2.1.0-beta.25"
   },
@@ -31,6 +32,7 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "graphql-tag": "^0.1.13",
     "html-webpack-plugin": "^2.22.0",
+    "netlify-cli": "^1.0.3",
     "react": "^15.3.1",
     "react-apollo": "^0.5.4",
     "react-dom": "^15.3.1",
@@ -49,6 +51,7 @@
   "scripts": {
     "start": "webpack-dev-server --hot --inline --history-api-fallback --host 0.0.0.0 --port 4000",
     "build": "rm -rf dist && webpack --config webpack.config.build.js",
+    "deploy": "netlify deploy",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
