@@ -1,14 +1,15 @@
-import React from 'react'
+import * as React from 'react'
 import { graphql } from 'react-apollo'
 import gql from 'graphql-tag'
+import {MutationInput} from '../types'
 
-class Post extends React.Component {
+interface Props {
+  post: any,
+  mutate: (input: MutationInput) => Promise<{}>
+  refresh: () => void
+}
 
-  static propTypes = {
-    post: React.PropTypes.object,
-    mutate: React.PropTypes.func,
-    refresh: React.PropTypes.func,
-  }
+class Post extends React.Component<Props,{}> {
 
   render () {
     return (

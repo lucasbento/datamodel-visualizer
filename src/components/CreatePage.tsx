@@ -1,14 +1,20 @@
-import React from 'react'
+import * as React from 'react'
 import { withRouter } from 'react-router'
 import { graphql } from 'react-apollo'
 import gql from 'graphql-tag'
+import {MutationInput} from '../types'
 
-class CreatePage extends React.Component {
+interface Props {
+  router: any,
+  mutate: (input: MutationInput) => Promise<{}>
+}
 
-  static propTypes = {
-    router: React.PropTypes.object,
-    mutate: React.PropTypes.func,
-  }
+interface State {
+  description: string,
+  imageUrl: string
+}
+
+class CreatePage extends React.Component<Props,State> {
 
   state = {
     description: '',
@@ -24,13 +30,17 @@ class CreatePage extends React.Component {
             className='w-100 pa3 mv2'
             value={this.state.description}
             placeholder='Description'
-            onChange={(e) => this.setState({description: e.target.value})}
+            onChange={(e: any) => this.setState({
+              description: e.target.value,
+            } as State)}
           />
           <input
             className='w-100 pa3 mv2'
             value={this.state.imageUrl}
             placeholder='Image Url'
-            onChange={(e) => this.setState({imageUrl: e.target.value})}
+            onChange={(e: any) => this.setState({
+              imageUrl: e.target.value,
+            } as State)}
           />
           {this.state.imageUrl &&
             <img src={this.state.imageUrl} role='presentation' className='w-100 mv3' />

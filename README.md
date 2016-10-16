@@ -23,7 +23,7 @@ type Post {
 
 ### 2. Configure app data endpoint
 
-Open `src/index.js` and paste your endpoint to the following line:
+Open `src/index.tsx` and paste your endpoint to the following line:
 
 ```js
 const networkInterface = createNetworkInterface('https://api.graph.cool/simple/v1/__PROJECT_ID__')

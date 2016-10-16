@@ -1,5 +1,6 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+// TS-lint disabled because otherwise React is not defined.
+import * as React from 'react' // tslint:disable-line
+import * as ReactDOM from 'react-dom'
 import ListPage from './components/ListPage'
 import CreatePage from './components/CreatePage'
 import { Router, Route, browserHistory } from 'react-router'
@@ -24,13 +25,14 @@ networkInterface.use([{
 
 const client = new ApolloClient({ networkInterface })
 
-ReactDOM.render((
-  <ApolloProvider client={client}>
-    <Router history={browserHistory}>
-      <Route path='/' component={ListPage} />
-      <Route path='/create' component={CreatePage} />
-    </Router>
-  </ApolloProvider>
+ReactDOM.render(
+  (
+    <ApolloProvider client={client}>
+      <Router history={browserHistory}>
+        <Route path='/' component={ListPage} />
+        <Route path='/create' component={CreatePage} />
+      </Router>
+    </ApolloProvider>
   ),
   document.getElementById('root')
 )

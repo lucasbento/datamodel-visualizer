@@ -1,14 +1,14 @@
-import React from 'react'
+import * as React from 'react'
 import { Link } from 'react-router'
 import Post from '../components/Post'
 import { graphql } from 'react-apollo'
 import gql from 'graphql-tag'
 
-class ListPage extends React.Component {
+interface Props {
+  data: any
+}
 
-  static propTypes = {
-    data: React.PropTypes.object,
-  }
+class ListPage extends React.Component<Props,{}> {
 
   render () {
     if (this.props.data.loading) {
