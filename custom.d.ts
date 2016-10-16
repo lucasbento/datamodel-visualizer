@@ -4,6 +4,7 @@ declare module 'chai'
 declare module 'node'
 declare module 'recompose/compose'
 declare module 'dagre'
+declare module 'd3'
 
 
 // declare interface Window {
